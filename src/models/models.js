@@ -277,7 +277,7 @@ class ResistanceTarget extends Target {
     postInit(args = {}) {
         this.min = existance(args.min, -100);
         this.max = existance(args.max, 100);
-        this.step = existance(args.step, 10);
+        this.step = existance(args.step, 1);
     }
     parse(value) { return parseInt(value); }
 }
