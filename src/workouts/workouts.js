@@ -1,5 +1,18 @@
 let workouts = [
         `<workout_file>
+    <author>Marek</author>
+    <name>Constant</name>
+    <category>Constant</category>
+    <description>Boring AF.</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout>
+        <SteadyState Duration="3600" Power="1.0"/>
+    </workout>
+</workout_file>
+`,
+        `<workout_file>
     <author>Marinov</author>
     <name>Dijon</name>
     <category>VO2 Max</category>
