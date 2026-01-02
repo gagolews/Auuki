@@ -1180,6 +1180,11 @@ auto-start-counter {
     min-height: 50px;
 }
 
+
+.number-input--inc, .number-input--dec {
+    min-width: 90px;
+}
+
 .number-input--value {
     width: var(--number-input-value-width);
     line-height: var(--number-input-line-height);
