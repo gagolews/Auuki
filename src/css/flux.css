@@ -1176,8 +1176,9 @@ auto-start-counter {
 }
 
 .number-input--value, .number-input--inc, .number-input--dec {
-    <!-- height: var(--number-input-height); -->
+    /* height: var(--number-input-height); */
     height: 50px;
+    font-weight: 900;
 }
 
 .number-input--value {
